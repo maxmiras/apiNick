@@ -14,6 +14,10 @@ app.use(express.json())
 
 app.use(router1)
 
+app.get('/',(req,res)=>{
+    res.send('esta es la pagina del server')
+})
+
 
 app.set('port', process.env.PORT || 3000)
 
