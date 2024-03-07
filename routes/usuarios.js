@@ -6,17 +6,6 @@ const db = require('../db.js')
 const router = express.Router()
 
 
-// Middleware CORS solo para las rutas específicas
-router.use('/iniciarSecion', cors());
-router.use('/eliminarEntrenamiento', cors());
-router.use('/obtHisEnt', cors());
-router.use('/obtEnt', cors());
-router.use('/addEntrenamiento', cors());
-router.use('/obtUE', cors());
-router.use('/obtenerUsuarios', cors());
-router.use('/updateUsers', cors());
-router.use('/registrarse', cors());
-router.use('/eliminar', cors());
 
 router.post('/obtenerContrasena', async (req, res) => {
     console.log(req.body)
