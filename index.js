@@ -8,9 +8,7 @@ db.obtenerDB('./Gym.db')
 
 
 
-app.use(cors({
-    origin: 'https://nick-black.vercel.app/index.html'
-  }))
+app.use(cors())
 app.use(express.json())
 
 
