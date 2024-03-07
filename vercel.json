@@ -9,15 +9,87 @@
   "routes": [
     {
       "src": "/iniciarSecion",
-      "methods": ["GET", "POST"],
+      "methods": ["POST"],
       "headers": {
         "Access-Control-Allow-Origin": "https://nick-black.vercel.app"
       },
-      "dest": "/"
+      "dest": "/index.js"
+    },
+    {
+      "src": "/eliminarEntrenamiento",
+      "methods": ["POST"],
+      "headers": {
+        "Access-Control-Allow-Origin": "https://nick-black.vercel.app"
+      },
+      "dest": "/index.js"
+    },
+    {
+      "src": "/obtHisEnt",
+      "methods": ["POST"],
+      "headers": {
+        "Access-Control-Allow-Origin": "https://nick-black.vercel.app"
+      },
+      "dest": "/index.js"
+    },
+    {
+      "src": "/obtEnt",
+      "methods": ["POST"],
+      "headers": {
+        "Access-Control-Allow-Origin": "https://nick-black.vercel.app"
+      },
+      "dest": "/index.js"
+    },
+    {
+      "src": "/addEntrenamiento",
+      "methods": ["POST"],
+      "headers": {
+        "Access-Control-Allow-Origin": "https://nick-black.vercel.app"
+      },
+      "dest": "/index.js"
+    },
+    {
+      "src": "/obtUE",
+      "methods": ["POST"],
+      "headers": {
+        "Access-Control-Allow-Origin": "https://nick-black.vercel.app"
+      },
+      "dest": "/index.js"
+    },
+    {
+      "src": "/obtenerUsuarios",
+      "methods": ["POST"],
+      "headers": {
+        "Access-Control-Allow-Origin": "https://nick-black.vercel.app"
+      },
+      "dest": "/index.js"
+    },
+    {
+      "src": "/updateUsers",
+      "methods": ["POST"],
+      "headers": {
+        "Access-Control-Allow-Origin": "https://nick-black.vercel.app"
+      },
+      "dest": "/index.js"
+    },
+    {
+      "src": "/registrarse",
+      "methods": ["POST"],
+      "headers": {
+        "Access-Control-Allow-Origin": "https://nick-black.vercel.app"
+      },
+      "dest": "/index.js"
+    },
+    {
+      "src": "/eliminar",
+      "methods": ["POST"],
+      "headers": {
+        "Access-Control-Allow-Origin": "https://nick-black.vercel.app"
+      },
+      "dest": "/index.js"
     },
     {
       "src": "/(.*)",
-      "dest": "/"
+      "dest": "/index.js"
     }
   ]
 }
