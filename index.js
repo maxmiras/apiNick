@@ -8,7 +8,7 @@ db.obtenerDB('./Gym.db')
 
 
 
-app.use(cors())
+// app.use(cors())
 app.use(express.json())
 
 
